@@ -1,0 +1,7 @@
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=500000
+HISTFILESIZE=50000000
+
+ulimit -c unlimited
+
+export VISUAL=vi
