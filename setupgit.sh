@@ -12,4 +12,4 @@ git config --global alias.ci commit
 git config --global push.default upstream
 
 git config --global user.name "Hardik Patel"
-git config --global user.email "hardik@circulumvite.com"
+git config --global user.email "hardikp12@gmail.com"
