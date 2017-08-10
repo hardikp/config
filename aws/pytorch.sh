@@ -8,14 +8,14 @@ sudo dpkg -i nvidia-driver-local-repo-ubuntu1604_375.51-1_amd64.deb
 sudo apt-get update
 sudo apt-get -y install cuda-drivers
 
+# Reboot
+sudo reboot
+
 # https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/
 sudo nvidia-smi -pm 1
 sudo nvidia-smi -acp 0
 sudo nvidia-smi --auto-boost-permission=0
 sudo nvidia-smi -ac 2505,875
-
-# Reboot
-sudo reboot
 
 # Install pytorch
 sudo apt-get -y install virtualenv
