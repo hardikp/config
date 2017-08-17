@@ -28,3 +28,8 @@
     # Mac
     git grep -l 'original_text' | xargs sed -i '' -e 's/original_text/new_text/g'
     ```
+
+* Look up public IP
+    ```bash
+    curl ipinfo.io/ip
+    ```
