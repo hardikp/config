@@ -19,3 +19,12 @@
     ```bash
     cat fix_messages.txt | tr '\001' '|'
     ```
+
+* `git grep` replace
+    ```bash
+    # Linux
+    git grep -l 'original_text' | xargs sed -i 's/original_text/new_text/g'
+
+    # Mac
+    git grep -l 'original_text' | xargs sed -i '' -e 's/original_text/new_text/g'
+    ```
