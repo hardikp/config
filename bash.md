@@ -33,3 +33,8 @@
     ```bash
     curl ipinfo.io/ip
     ```
+
+* clang-format all files
+    ```bash
+    clang-format -i *.cpp
+    ```
