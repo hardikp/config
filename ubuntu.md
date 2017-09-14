@@ -5,4 +5,4 @@
 * Add required host mapping in /etc/hosts
 * Install required editors/IDEs including eclipse (requires java), vscode and atom.
 * Install shutter.
-* Ubuntu installation black screen - https://askubuntu.com/questions/832163/black-screen-when-loading-ubuntu-live-usb
+* Ubuntu installation black screen - https://askubuntu.com/questions/832163/black-screen-when-loading-ubuntu-live-usb and https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-options-do-i-have-to-fix-it
