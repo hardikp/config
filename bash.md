@@ -5,7 +5,11 @@
     find . -name "*.txt" -exec rm {} \;
 
     # Remove files with modify time more than 2 days
-    find . -mtime +2 -exec rm {} \;
+    find . -mtime +2 -type f -exec rm {} \;
+
+    # Remove empty directories
+    find . -type d -empty -exec rmdir {} \;
+    find . -type d -empty -delete
     ```
 
 * Add shadow to an image (For Mac, do `brew install imagemagick` first to install ImageMagick.)
