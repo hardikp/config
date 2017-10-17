@@ -1,5 +1,6 @@
 * chrome - `libappindicator1` might be required
 * Install `git`, `vim`. Clone git@github.com:hardikp/config.git
+* Development packages include: `zlib1g-dev` (for zlib.h file)
 * Get ssh keys. Copy ssh config.
 * Remove 'sticky edges' if you're using multiple monitors.
 * Add required host mapping in /etc/hosts
