@@ -45,7 +45,7 @@
 
 * valgrind memcheck tool
     ```bash
-    valgrind --track-origins=yes --leak-check=yes --tool=memcheck --read-var-info=yes --log-file=error.txt cmd args
+    valgrind --track-origins=yes --leak-check=full --show-leak-kinds=all --tool=memcheck --read-var-info=yes --log-file=error.txt cmd args
     ```
 
 * valgrind [SGCheck tool](http://valgrind.org/docs/manual/sg-manual.html) for Stack and Global Array overrun detection
