@@ -42,3 +42,13 @@
     ```bash
     clang-format -i *.cpp
     ```
+
+* valgrind memcheck tool
+    ```bash
+    valgrind --track-origins=yes --leak-check=yes --tool=memcheck --read-var-info=yes --log-file=error.txt cmd args
+    ```
+
+* valgrind [SGCheck tool](http://valgrind.org/docs/manual/sg-manual.html) for Stack and Global Array overrun detection
+    ```bash
+    valgrind --tool=exp-sgcheck --log-file=error.txt cmd args
+    ```
