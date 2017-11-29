@@ -52,3 +52,13 @@
     ```bash
     valgrind --tool=exp-sgcheck --log-file=error.txt cmd args
     ```
+
+* gdb
+    ```bash
+    gdb --args cmd args
+    ```
+
+    Useful commands:
+    * `thread apply all bt` - print backtrace for all threads.
+    * `f 6` - jump to frame 6 in the callstack.
+    * `thread 3` - jump to thread 3.
