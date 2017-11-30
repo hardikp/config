@@ -16,9 +16,10 @@ sudo apt install -y docker-ce
 sudo usermod -aG docker `whoami`
 echo "Please logout/login for the usermod changes to take effect!"
 
-sudo curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` >/tmp/docker-compose
+chmod +x /tmp/docker-compose
+sudo mv /tmp/docker-compose /usr/local/bin/docker-compose
 
 curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
 chmod +x /tmp/docker-machine
-sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+sudo mv /tmp/docker-machine /usr/local/bin/docker-machine
