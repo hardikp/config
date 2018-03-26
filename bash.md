@@ -62,3 +62,5 @@
     * `thread apply all bt` - print backtrace for all threads.
     * `f 6` - jump to frame 6 in the callstack.
     * `thread 3` - jump to thread 3.
+
+* gpg - [move keys to another computer](https://www.phildev.net/pgp/gpg_moving_keys.html)
