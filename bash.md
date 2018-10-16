@@ -67,3 +67,10 @@
     * `thread 3` - jump to thread 3.
 
 * gpg - [move keys to another computer](https://www.phildev.net/pgp/gpg_moving_keys.html)
+
+* docker - https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+    ```bash
+    # Remove dangling images/containers/volumes/networks
+    docker system prune
+    docker system prune -a
+    ```
