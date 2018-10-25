@@ -10,6 +10,9 @@
     # Remove empty directories
     find . -type d -empty -exec rmdir {} \;
     find . -type d -empty -delete
+
+    # Find files more than 100MB in size
+    find -type f -size +100M
     ```
 
 * Add shadow to an image (For Mac, do `brew install imagemagick` first to install ImageMagick.)
@@ -66,7 +69,9 @@
     * `f 6` - jump to frame 6 in the callstack.
     * `thread 3` - jump to thread 3.
 
-* gpg - [move keys to another computer](https://www.phildev.net/pgp/gpg_moving_keys.html)
+* gpg:
+    * [move keys to another computer](https://www.phildev.net/pgp/gpg_moving_keys.html)
+    * http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/
 
 * docker - https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
     ```bash
