@@ -117,8 +117,8 @@ http://kafka.apache.org/082/documentation.html#quickstart
         table_name AS `Table`,
         round(((data_length + index_length) / 1024 / 1024), 2) `Size in MB`
     FROM information_schema.TABLES
-    WHERE table_schema = "$DB_NAME"
-        AND table_name = "$TABLE_NAME";
+    WHERE table_schema = "ib_qleap"
+    ORDER BY (data_length + index_length) DESC;
     ```
 
 * List of tables by size in all databases:
