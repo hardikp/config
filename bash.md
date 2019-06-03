@@ -55,6 +55,11 @@
     * [move keys to another computer](https://www.phildev.net/pgp/gpg_moving_keys.html)
     * http://irtfweb.ifa.hawaii.edu/~lockhart/gpg/
 
+* Processes using [the most memory](https://unix.stackexchange.com/a/166559):
+    ```shell
+    ps aux --sort=-%mem | awk 'NR<=10{print $0}'
+    ```
+
 ## Debugging
 
 * gdb
