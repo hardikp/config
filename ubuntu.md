@@ -6,9 +6,11 @@
     ```shell
     chmod go-rw .ssh/id_rsa*
     ```
-* Clone git@github.com:hardikp/config.git
+* Clone git@github.com:hardikp/config.git and run `setupgit.sh`.
     ```shell
     git clone git@github.com:hardikp/config.git
+    cd config
+    bash setupgit.sh
     ```
 * Download vscode and install it:
     ```shell
