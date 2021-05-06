@@ -1,3 +1,5 @@
+Instructions are applicable for ubuntu 20.04.
+
 * Install `git`, `vim`:
     ```shell
     sudo apt install git vim
@@ -15,6 +17,14 @@
 * Download vscode and install it:
     ```shell
     sudo dpkg -i vscode.deb
+    ```
+* Python virtualenv:
+    ```shell
+    sudo apt install python3-pip
+    pip3 install virtualenv
+    export PATH=$PATH:$HOME/.local/bin
+    virtualenv -p python3 ~/h
+    source ~/h/bin/activate
     ```
 
 Other:
