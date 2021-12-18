@@ -26,6 +26,14 @@ Instructions are applicable for ubuntu 20.04.
     virtualenv -p python3 ~/h
     source ~/h/bin/activate
     ```
+* Nvidia driver + CUDA:
+    ```shell
+    ```
+* Download and install Canon mf642c drivers - https://www.usa.canon.com/internet/portal/us/home/support/details/printers/color-laser/canon-color-imageclass-mf642cdw
+* Install gscan2pdf:
+    ```shell
+    sudo apt install gscan2pdf
+    ```
 
 Other:
 * Install shutter.
