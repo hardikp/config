@@ -41,3 +41,31 @@ plt.ylabel('Y label')
 plt.legend()
 plt.savefig('figname.png')
 ```
+
+### Seaborn
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+sns.set_style('darkgrid')  # Options: darkgrid, whitegrid, dark, white, ticks
+sns.set_context('talk')  # Options: paper, notebook, talk, poster
+
+width = 12
+length = 7
+fig, axs = plt.subplots(1, 1, figsize=(width, length))
+
+num_rows = 20
+years = list(range(1990, 1990 + num_rows))
+data_preproc = pd.DataFrame({
+    'Year': years, 
+    'A': np.random.randn(num_rows).cumsum(),
+    'B': np.random.randn(num_rows).cumsum(),
+    'C': np.random.randn(num_rows).cumsum(),
+    'D': np.random.randn(num_rows).cumsum()})
+
+sns.lineplot(x='Year', y='value', hue='variable', 
+             data=pd.melt(data_preproc, ['Year']))
+```
