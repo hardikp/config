@@ -28,6 +28,7 @@ Instructions are applicable for ubuntu 20.04.
     ```
 * Other things to install:
     * Pytorch - https://pytorch.org/get-started/locally/
+    * Install python extension for vs code and set "black" as formatter
 * Python packages to install:
     ```shell
     pip3 install torch torchvision torchaudio
@@ -56,10 +57,3 @@ Instructions are applicable for ubuntu 20.04.
         ```shell
         sudo nvidia-settings
         ```
-
-* Nvidia driver + CUDA - https://gist.github.com/kmhofmann/cee7c0053da8cc09d62d74a6a4c1c5e4
-* Download and install Canon mf642c printer drivers - https://www.usa.canon.com/internet/portal/us/home/support/details/printers/color-laser/canon-color-imageclass-mf642cdw
-
-Other:
-* Install shutter.
-* Ubuntu installation black screen - https://askubuntu.com/questions/832163/black-screen-when-loading-ubuntu-live-usb and https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-options-do-i-have-to-fix-it
