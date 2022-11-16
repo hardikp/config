@@ -26,9 +26,6 @@ Instructions are applicable for ubuntu 20.04.
     virtualenv -p python3 ~/h
     source ~/h/bin/activate
     ```
-* Other things to install:
-    * Pytorch - https://pytorch.org/get-started/locally/
-    * Install python extension for vs code and set "black" as formatter
 * Python packages to install:
     ```shell
     pip3 install torch torchvision torchaudio
@@ -56,4 +53,11 @@ Instructions are applicable for ubuntu 20.04.
     * Optionally, configure the driver if needed:
         ```shell
         sudo nvidia-settings
+        ```
+* Other things to install:
+    * Install python extension for vs code and set "black" as formatter (vs code will prompt you to install black if not found).
+    * pdflatex:
+        ```shell
+        sudo apt install texlive-latex-base
+        sudo apt install texlive-full
         ```
