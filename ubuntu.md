@@ -54,6 +54,16 @@ Instructions are applicable for ubuntu 20.04.
         ```shell
         sudo nvidia-settings
         ```
+* Tensorflow:
+    * Install CUDA toolkit:
+        ```shell
+        sudo apt install nvidia-cuda-toolkit
+        ```
+    * Install cuDNN from https://developer.nvidia.com/cudnn
+    * Install tensorflow:
+        ```shell
+        pip install tensorflow
+        ```
 * Other things to install:
     * Install python extension for vs code and set "black" as formatter (vs code will prompt you to install black if not found).
     * pdflatex:
