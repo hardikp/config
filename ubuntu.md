@@ -71,3 +71,7 @@ Instructions are applicable for ubuntu 20.04.
         sudo apt install texlive-latex-base
         sudo apt install texlive-full
         ```
+    * (Optional) npm:
+        ```shell
+        sudp apt install npm
+        ```
