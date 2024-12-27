@@ -36,7 +36,7 @@ Instructions are applicable for ubuntu 20.04.
     * Check if you have NVIDIA GPU using either of these 2 commands:
         ```shell
         sudo lshw -C display
-        hwinfo --gfxcard --short
+        hwinfo --gfxcard --short  # Needs `sudo apt install hwinfo`.
         ```
     * List nvidia drivers:
         ```shell
@@ -44,7 +44,7 @@ Instructions are applicable for ubuntu 20.04.
         ```
     * Install the latest one:
         ```shell
-        sudo apt install nvidia-driver-515 nvidia-dkms-515
+        sudo apt install nvidia-driver-550 nvidia-dkms-550
         ```
     * Restart the computer. Confirm the installation using:
         ```shell
