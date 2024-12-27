@@ -16,13 +16,13 @@ Instructions are applicable for ubuntu 20.04.
     ```
 * Download vscode and install it:
     ```shell
-    sudo dpkg -i vscode.deb
+    sudo dpkg -i ~/Downloads/code_1.96.2-1734607745_amd64.deb
     ```
 * Python virtualenv:
     ```shell
-    sudo apt install python3-pip
-    pip3 install virtualenv
-    export PATH=$PATH:$HOME/.local/bin
+    sudo apt install python3-virtualenv
+    sudo apt install python3-pip  # Not sure if this is needed anymore
+    export PATH=$PATH:$HOME/.local/bin  # Not sure if this is needed at this point.
     virtualenv -p python3 ~/h
     source ~/h/bin/activate
     ```
