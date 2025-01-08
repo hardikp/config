@@ -18,6 +18,8 @@ Instructions are applicable for ubuntu 20.04.
     ```shell
     sudo dpkg -i ~/Downloads/code_1.96.2-1734607745_amd64.deb
     ```
+* Download cursor and install it:
+    * https://gist.github.com/jorcelinojunior/131748e12a039c02148a6f66e1fb312c?permalink_comment_id=5206557
 * Python virtualenv:
     ```shell
     sudo apt install python3-virtualenv
